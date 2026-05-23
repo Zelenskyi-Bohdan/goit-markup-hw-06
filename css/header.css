@@ -33,6 +33,10 @@
   height: 24px;
 }
 
+.header-icon {
+  fill: #2e2f42;
+}
+
 nav {
   display: none;
 }
@@ -42,6 +46,10 @@ address {
 }
 
 @media (min-width: 768px) {
+  .header-button {
+    display: none;
+  }
+
   .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow:
@@ -59,8 +67,8 @@ address {
     gap: 40px;
     justify-content: space-around;
     flex-grow: 1;
-    padding-left: 76px;
-    padding-right: 340px;
+    padding-left: 120px;
+    padding-right: 129px;
   }
 
   .nav-link {
@@ -101,6 +109,7 @@ address {
 
   .address {
     display: flex;
+    flex-direction: column;
   }
 
   .address-link {
@@ -128,7 +137,12 @@ address {
 }
 
 @media (min-width: 1158px) {
-  .section {
-    padding: 120px 0;
+  .nav {
+    padding-left: 76px;
+    padding-right: 340px;
+  }
+
+  .address {
+    flex-direction: row;
   }
 }
