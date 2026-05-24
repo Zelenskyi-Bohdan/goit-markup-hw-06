@@ -10,7 +10,7 @@
       rgba(46, 47, 66, 0.7) 0%,
       rgba(46, 47, 66, 0.7) 100%
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/hero-bg@1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -92,6 +92,21 @@
   .button:hover,
   .button:focus {
     background-color: #404bbf;
+  }
+}
+
+@media (min-resolution: 2x) {
+  .hero {
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%
+      ),
+      url(../images/hero-bg@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 }
 
