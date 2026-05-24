@@ -43,7 +43,7 @@ input {
 
 .container {
   width: 100%;
-  max-width: 320px;
+  max-width: 767px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -54,7 +54,7 @@ input {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 1157px;
   }
 }
 
