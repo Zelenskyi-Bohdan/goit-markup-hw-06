@@ -25,10 +25,12 @@
   background-color: #fcfcfc;
   display: flex;
   flex-direction: column;
+  gap: 16px;
   border-radius: 4px;
-  padding: 72px 24px 24px;
-  width: 408px;
-  height: 584px;
+  padding: 72px 16px 24px;
+  width: 288px;
+  max-width: 408px;
+  height: 623px;
   box-shadow:
     0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -76,31 +78,31 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 16px;
 }
 
 .form {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   flex-direction: column;
-  width: 360px;
-  height: 448px;
+  width: 256px;
+  height: 463px;
 }
 
 .form-contacts-container {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: 360px;
-  height: 368px;
+  border-radius: 4px;
+  width: 256px;
+  height: 336px;
+  margin-bottom: 16px;
 }
 
 .input-container {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  width: 360px;
+  width: 256px;
   height: 58px;
   position: relative;
 }
@@ -128,6 +130,8 @@
   background-color: #fcfcfc;
   border-radius: 4px;
   padding: 8px 38px;
+  width: 256px;
+  height: 40px;
   max-width: 360px;
   min-height: 40px;
   outline: none;
@@ -146,9 +150,8 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  width: 360px;
+  width: 256px;
   height: 138px;
-  margin-bottom: 16px;
 }
 
 .form-textarea {
@@ -156,7 +159,7 @@
   background-color: #fcfcfc;
   border-radius: 4px;
   padding: 8px 16px;
-  width: 360px;
+  width: 256px;
   height: 120px;
   resize: none;
   outline: none;
@@ -182,10 +185,9 @@
 .policy-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   gap: 8px;
-  width: 360px;
-  height: 16px;
+  width: 256px;
+  height: 31px;
   position: relative;
 }
 
@@ -272,4 +274,45 @@
 .form-button:hover,
 .form-button:focus {
   background-color: #404bbf;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    padding: 72px 24px 24px;
+    width: 408px;
+    height: 584px;
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 448px;
+  }
+
+  .form-contacts-container {
+    width: 360px;
+  }
+
+  .input-container {
+    width: 360px;
+  }
+
+  .form-input {
+    width: 360px;
+  }
+
+  .textarea-container {
+    width: 360px;
+  }
+
+  .form-textarea {
+    width: 360px;
+  }
+
+  .policy-container {
+    width: 360px;
+    height: 16px;
+  }
 }
