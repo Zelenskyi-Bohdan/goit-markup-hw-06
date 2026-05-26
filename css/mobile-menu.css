@@ -61,6 +61,7 @@
   }
 
   .menu-text {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
@@ -83,6 +84,7 @@
   }
 
   .menu-bottom-address {
+    font-style: normal;
     width: 151px;
   }
 
@@ -106,7 +108,7 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #4d5ae5;
   }
 
   .menu-contacts-text {
@@ -138,4 +140,10 @@
   cursor: pointer;
   background-color: #31d0aa;
 } */
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-overlay {
+    display: none;
+  }
 }
