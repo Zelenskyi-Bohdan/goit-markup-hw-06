@@ -24,7 +24,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 72px;
   justify-content: center;
 }
 
@@ -100,8 +100,9 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
     row-gap: 64px;
-    width: 736px;
+    column-gap: 24px;
   }
 }
 

@@ -42,7 +42,6 @@
 
 .page-title {
   max-width: 216px;
-
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
@@ -96,7 +95,6 @@
     text-align: center;
     color: #fff;
     max-width: 496px;
-    padding-bottom: 48px;
   }
 
   .button {

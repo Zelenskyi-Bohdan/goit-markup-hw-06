@@ -17,7 +17,6 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-  max-width: 288px;
 }
 
 .features-list-icon-container {
@@ -37,7 +36,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  width: 264px;
 }
 
 @media (min-width: 768px) {
@@ -65,6 +63,7 @@
 @media (min-width: 1158px) {
   .features-list {
     flex-wrap: nowrap;
+    gap: 24px;
   }
 
   .features-list-icon-container {

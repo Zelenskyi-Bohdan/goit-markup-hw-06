@@ -30,7 +30,7 @@
           >
         </div>
         <button type="button" class="header-button">
-          <svg width="17" height="15" class="header-icon">
+          <svg width="24" height="24" class="header-icon">
             <use href="./images/icons.svg#menu"></use>
           </svg>
         </button>
@@ -545,47 +545,49 @@
       </div>
     </footer>
 
-    <div class="mobile-menu-overlay">
-    <div class="mobile-menu">
-      <button type="button" class="mobile-menu-button">
-        <svg width="8" height="8" class="modal-button-icon">
-          <use href="./images/icons.svg#close"></use>
-        </svg>
-      </button>
-      <ul class="menu">
-        <li class="menu-item">
-          <a class="menu-link" href="">
-          <h2 class="menu-text">Studio</h2>
-        </a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link" href="">
-          <h2 class="menu-text">Portfolio</h2>
-        </a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link" href="">
-          <h2 class="menu-text">Contacts</h2>
-        </a>
-        </li>
-      </ul>
-       
-      <div class="menu-bottom">
-        <ul class="menu-contacts">
-          <li class="menu-contacts-item">
-            <a
-              href="mailto:info@devstudio.com"
-              class="menu-contacts-link menu-contacts-text"
-              >info@devstudio.com</a
-            >
+    <div class="mobile-menu-overlay" id="mobile-menu">
+      <div class="mobile-menu">
+        <button type="button" class="mobile-menu-button">
+          <svg width="8" height="8" class="modal-button-icon">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <ul class="menu">
+          <li class="menu-item">
+            <a class="menu-link" href="">
+              <h2 class="menu-text">Studio</h2>
+            </a>
           </li>
-          <li class="menu-contacts-item">
-            <a href="tel:+110001111111" class="menu-contacts-link menu-contacts-text"
-              >+11 (000) 111-11-11</a
-            >
+          <li class="menu-item">
+            <a class="menu-link" href="">
+              <h2 class="menu-text">Portfolio</h2>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="">
+              <h2 class="menu-text">Contacts</h2>
+            </a>
           </li>
         </ul>
-        <ul class="menu-socials">
+
+        <div class="menu-bottom">
+          <ul class="menu-contacts">
+            <li class="menu-contacts-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="menu-contacts-link menu-contacts-text"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="menu-contacts-item">
+              <a
+                href="tel:+110001111111"
+                class="menu-contacts-link menu-contacts-text"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+          <ul class="menu-socials">
             <li>
               <a class="menu-socials-link">
                 <svg width="24" height="24" class="menu-socials-icon">
@@ -615,8 +617,8 @@
               </a>
             </li>
           </ul>
+        </div>
       </div>
-    </div>
     </div>
 
     <div class="modal-overlay" id="modal">
@@ -691,7 +693,6 @@
           <button type="submit" class="form-button">Send</button>
         </form>
       </div>
-    </div>
     </div>
   </body>
 </html>
